@@ -1,12 +1,18 @@
 import React from 'react';
+import '../Other/Other'
+
 
 
 const Header = (props) => {
-   const [name,age]= props.student
+    console.log(props.list)
+    
+    
     return (
         <div>
-            <h1>{name}</h1>
-            <h4>{age}e</h4>
+            <h1>no developer is sleeping</h1>
+            
+            
+          
         </div>
     );
 };
